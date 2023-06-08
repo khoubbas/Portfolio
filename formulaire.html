@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+  <html lang="fr">
+    <head>
+      <meta charset="UTF-8">
+      <title>Portfolio Soukaïna KHOUBBAZ</title>
+      <link rel="stylesheet" href="portfolio.css"> <!-- Feuille de style principale -->
+    </head>
+
+    <body>
+      <header>
+        <!-- 
+          Barre de navigation principale.
+          À noter : le lien actif contient un nom de classe "actif"
+        -->
+        <nav>
+          <ul>
+            <li> <img src="girl_pc.png" id="image_girl_pc"><a href="accueil.html"><text id="Accueil">Accueil</text></a></li>
+            <li><a href="qui-suis-je.html">Qui-suis-je ?</a></li>
+            <li><a href="mes-projets.html">Mes projets</a></li>
+            <li><a class="actif" href="formulaire.html">Me contacter</a></li>
+          </ul>
+        </nav>
+      </header>
+
+      
+
+      <main id="main_formulaire">
+        <h1 id="h1_formulaire">Formulaire de contact</h1>
+        <p id="p_maintenance">Le formulaire de contact est actuellement en maintenance. <br> Veuillez me contacter par mail à l'adresse <strong> Soukaina.Khoubbaz@etu.univ-grenoble-alpes.fr</strong>. <br> Merci de votre compréhension</p>
+        <form action="" get="">
+
+          <div id="div_nom_prenom_form">
+            <section class="section_nom_prenom">
+              <p>Nom :</p>
+              <input type="text" name="nom" class="input_nom_prenom" required>
+            </section>
+
+            <section class="section_nom_prenom">
+              <p>Prénom :</p>
+              <input type="text" name="prenom" class="input_nom_prenom" required>
+            </section>
+            
+          </div>
+          
+          <div class="div_form">
+            <p>E-mail :</p>
+            <input type="email" name="mail" required>
+          </div>
+
+          <div class="div_form">
+            <p>Message :</p>
+            <input type="text" name="message" id="input_message" required>
+          </div>
+
+          <div class="div_form">
+            <input type="button" name="envoyer" id="input_envoyer" value="ENVOYER">
+          </div>
+
+        </form>
+      </main>

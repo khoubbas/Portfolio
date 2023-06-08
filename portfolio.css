@@ -1,0 +1,554 @@
+/* pour toute la page*/
+main {
+    display:flex;
+    flex-direction: column;
+    color:rgb(38, 20, 39); 
+    background-color: #f4e5f0;   
+}
+  
+/* pour le corps*/
+body {  
+    font-family:fantasy;
+    margin:0;
+}
+
+/*TITRES*/
+
+h1{
+    font-size:500%;
+    margin:0px;
+    padding:15px;
+    color:#c39292;
+    background-color: #2b1f2b;
+}
+
+h2{
+    font-size:200%;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-transform:uppercase;
+}
+.h2_sous-titre{
+    background-color: #ab8699;
+    margin:0;
+
+}
+#h2_presentation{
+    font-size:22px;
+    position: absolute;
+    top:300px; left:327px;
+    text-align: center;
+}
+#h3_bienvenue{
+    text-align: center;
+}
+
+/*LIENS NAV pages*/
+header nav ul{
+    display:flex;
+    flex-direction:row;
+    gap:120px;
+    list-style: none;
+    padding:17px;
+    padding-left:70px;
+    margin:0;
+}
+
+header nav ul li:last-child{
+    position:relative;
+    left:650px;
+}
+
+header ul li:last-child a{
+    color:rgb(136, 72, 104);
+    font-weight: bold;
+}
+
+
+/*LIENS pages*/
+header a{
+    text-decoration:none;
+    font-size: 15px;
+    color:#be8c7a;
+    text-transform:uppercase;
+}
+
+header a:hover{
+    border-bottom: solid #d2a093 3px;
+}
+
+header ul li:last-child a:hover{
+        border-bottom: solid rgb(136, 72, 104) 3px;
+}
+
+header a:active{
+    border-bottom: solid #d2a093 3px;
+}
+/*aligner le texte du lien "Accueil" au reste*/
+li{
+    position:relative;
+}
+li a #Accueil{
+    position:relative;
+    bottom:6px;
+}
+
+
+/*ASIDE présentation*/
+
+ul{
+    list-style:none;
+    position:relative;
+    right:20px;
+    line-height:22px;
+    display:flex;
+    flex-direction:column;
+    gap:20px;
+    align-items: center;
+}
+ul a{
+    text-decoration: none;
+}
+aside h2{
+    text-align: center;
+    font-size: 25px;
+}
+
+#ul_presentation{
+    position: relative;
+    bottom:200px; right:340px;
+}
+
+/*MENU DEROULANT*/
+#nav_deroulant{
+    width:100%;
+    margin:0 auto;
+    position:sticky;
+    top:0px;
+    background-color:white;
+    z-index: 100; 
+}
+
+#nav_deroulant ul li{
+    float:left;
+    width:25%;
+    text-align: center;
+    position: relative;
+}
+
+#nav_deroulant ul::after{
+    content:"";
+    display:table;
+    clear:both;
+}
+
+#nav_deroulant a{
+    display: block;
+    text-decoration: none;
+    border-bottom: 2px solid transparent;
+    padding:10px 0px;
+}
+
+#nav_deroulant a:hover{
+    color:orange;
+    border-bottom:2px solid gold;
+}
+
+.sous{
+    display: none;
+    box-shadow: 0px 1px 2px #CCC;
+    background-color: white;
+    position: absolute;
+    width: 100%;
+    z-index: 1000;
+}
+
+#nav_deroulant > ul li:hover .sous{
+    display:flex;
+    flex-direction: column;
+}
+
+.sous li{
+    float: none;
+    width: 100%;
+    text-align: left;
+}
+
+.sous a{
+    padding: 10px;
+    border-bottom: none;
+}
+
+.sous a:hover{
+    background-color: RGBa(200,200,200,0.1);
+}
+
+.deroulant > a::after{
+    content:" ▼";
+    font-size: 12px;
+}
+
+.conteneur{
+    margin: 50px 20px;
+    height: 1500px;
+  }
+
+  .ul_deroulant{
+    list-style:none;
+    position:relative;
+    right:20px;
+    line-height:22px;
+    gap:20px;
+    display: block;
+}
+#nav_deroulant>li{
+    display: flex;
+    flex-direction: row;
+}
+/*ma scolarité, mes compétences...*/
+
+h3{
+    font-size:150%;
+    text-align:start;
+}
+h4{
+    font-size:120%;
+}
+
+/*AUTRES ELEMENTS*/
+
+p, li, dd{
+    line-height:25px;
+}
+
+dt{
+display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content:space-evenly;
+}
+
+.article_page{
+    display: flex;
+    justify-content:space-around;
+    }
+
+.dl_qui, .dl_projets{
+    display: flex;
+    flex-direction:column;
+    justify-content: space-around;
+    gap:20px;
+}
+.dl_qui dl{
+    width:40%;
+}
+dd, dt{
+    align-items:baseline;
+}
+
+dt{
+    text-align:center;
+}
+main a{
+    color:#be8c7a;
+}
+
+main a:visited{
+    color:#be8c7a;
+}
+main a:hover{
+    color:orange;
+}
+/*------------ACCUEIL--------------*/
+#section_acc{
+    height: 580px;
+
+}
+/*div contenu accueil*/
+#accueil{
+    display:flex;
+    flex-direction:row;
+}
+#image_girl_pc{
+    width: 30px;
+}
+#img_hallo{
+    width:300px;
+    height:489px;
+    margin-left:300px;
+}
+#img_moi{
+    width:120px;
+    position:absolute;
+    top:400px; left:387px;
+    border:solid white 5px;
+}
+/*img accueil*/
+#img_pc_accueil{
+    height:480px;
+    position:absolute;
+    left:940px; top:279px;
+}
+
+#Soukaïna{
+    color:#ba3666;
+}
+
+/*------------QUI SUIS-JE--------------*/
+
+/*img diplome qui*/
+#img_ordi{
+    width:100px;
+}
+#img_diplome{
+    height:70px;
+}
+
+/*div bac+ qui*/
+.div_scol{
+    display:flex;
+    flex-direction: column;
+    width:40%;
+}
+.div_comp{
+    display:flex;
+    flex-direction: column;
+    width:40%;
+    flex-wrap: wrap;
+}
+.div_comp ul{
+    display:block;
+}
+.div_comp ul li{
+    line-height:26px;;
+}
+#main_qui{
+    display: flex;
+    flex-direction: column;
+}
+
+
+/*-------FORMULAIRE----------*/
+
+#h1_formulaire{
+    color:#2b1f2b;
+    background-color:#c39292;
+}
+
+/*main formulaire*/
+#main_formulaire{
+    align-items:center;
+    display:flex;
+    flex-direction:column;
+    flex-wrap:wrap;
+    background-color:#c39292;
+    padding-bottom:48px;
+}
+
+form{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    gap:15px;
+    margin-bottom:50px;
+    width:500px;
+}
+
+.div_form{
+    width:100%;
+    display:flex;
+    flex-direction:column;
+    
+}
+#p_maintenance{
+    color:rgb(168, 28, 28);
+    text-align:center;
+}
+
+/*partie nom + prenom formaulaire*/
+#div_nom_prenom_form{
+    width:100%;
+    display:flex;
+    gap:40px;
+}
+input{
+    height:30px;
+    background-color: rgb(214, 220, 197);
+}
+
+input:valid{
+    background: rgb(206, 232, 206);
+}
+.section_nom_prenom{
+    width:100%;
+}
+.input_nom_prenom{
+    height:30px;
+    width:100%;
+}
+#input_message{
+    height:100px;
+}
+#input_envoyer{
+    color:#f5e9e2;
+    background-color: rgb(90, 29, 92);
+    border:none;
+    border-radius:10px;
+    box-shadow:5px 5px 10px black;
+    width:150px;
+    height:40px;
+    align-self:center;
+}
+
+/*FOOTER*/
+footer{
+    background-color:#16122f;
+    height:max-content;
+    color:#e2c3b2;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#ul_email, #ul_telephone{
+    padding-right:150px;
+    border-right:solid #e2c3b2;
+}
+
+
+footer a{
+    color:rgb(38, 20, 39);
+    text-decoration:none;
+    font-size:22px;
+    text-transform:uppercase;
+}
+
+footer a:hover{
+    color:#e3b5a4;
+    background-color: black;
+    padding:20px;
+}
+
+#li_email, #li_tel, #li_adresse{
+    color:#bdf2ff;
+}
+
+/* Contenu page */
+
+section ul{
+    align-items:start;
+}
+
+.sct_menu{
+    display:flex;
+    flex-wrap:wrap;
+    gap:30px;
+    text-align: center;
+    justify-content:space-evenly;
+
+}
+
+
+.art_menu a{
+    text-decoration:none;
+    color:#16122f;
+}
+/* Projets */
+#p_sae{
+    text-align: center;
+}
+#article_boutons_sae{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin:40px;
+}
+.img_sae{
+    width:200px;
+    box-shadow: 6px 10px 18px #888888;
+    transition: .3s ease-in-out;
+    border-radius: 20px;
+}
+.img_sae:hover{
+    transform: scale(1.2);
+}
+#article_sae{
+    display:flex;
+    flex-direction: column;
+    gap:30px;
+    align-items: center;
+
+}
+#article_sae ul>li{
+    list-style-type:circle;
+}
+#article_sae #section_sae1{
+    width:40%;
+    position: absolute;
+}
+
+#article_sae #section_sae2{
+    width:40%;
+    position: absolute;
+    top: 2590px;
+}
+
+#article_sae #section_sae3{
+    width:40%;
+    position: absolute;
+    top: 4030px;
+}
+
+#article_sae #section_sae4{
+    width:40%;
+    position: absolute;
+    top: 5950px;
+}
+
+#article_sae section img{
+    position:absolute;
+    right:0px;
+    left:350px;  
+
+}
+#article_sae h2{
+    text-align: center;
+}
+
+#bg_sae1{
+    height:1700px;
+    width:834px;
+}
+
+#bg_sae2{
+    height:1400px;
+    width:834px;
+}
+#bg_sae3{
+    height:1900px;
+    width:834px;
+}
+
+#bg_sae4{
+    height:2200px;
+    width:834px;
+}
+#bouton{
+position: fixed;
+bottom: 5%;
+right: 2%;
+z-index: 9999;
+margin: 0;
+width: 60px;
+height: 60px;
+border: none;
+border-radius: 60px;
+background: rgb(216, 105, 99);
+color: white;
+text-align: center;
+font-size: larger;
+text-decoration: none;
+}
+#bouton:hover{
+background: rgb(158, 75, 71);
+
+}
