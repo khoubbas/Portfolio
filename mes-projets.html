@@ -1,375 +1,409 @@
 <!DOCTYPE html>
-  <html lang="fr">
-    <head>
-      <meta charset="UTF-8">
-      <title>Portfolio Soukaïna KHOUBBAZ</title>
-      <link rel="stylesheet" href="portfolio.css"> <!-- Feuille de style principale -->
-    </head>
+<html lang="fr">
 
-    <body>
-      <header>
-        <!-- 
-          Barre de navigation principale.
-          À noter : le lien actif contient un nom de classe "actif"
-        -->
-        <a href="#"><button id="bouton">&#11014</button></a>
+<head>
+  <meta charset="UTF-8">
+  <title>Portfolio Soukaïna KHOUBBAZ</title>
+  <link rel="stylesheet" href="portfolio.css"> <!-- Feuille de style principale -->
+</head>
 
-        <nav>
+<body>
+  <header>
+    <a href="#"><button id="bouton">&#11014</button></a>
+
+    <nav>
+      <ul>
+        <li><img src="img/girl-pc.png" id="image-girl-pc" alt="girl-pc"><a href="accueil.html"><text
+              id="Accueil">Accueil</text></a></li>
+        <li><a href="qui-suis-je.html">Qui-suis-je ?</a></li>
+        <li><a class="important-text" class="actif" href="mes projets.html">Mes projets</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <h2>Expériences professionnelles</h2>
+
+    <section class="section-fiches">
+
+      <article class="article-fiche">
+        <img src="img/bg-sae.jpg" alt="bg-sae" id="bg-jba">
+
+        <section id="section-alternance">
+          <h3 class="h3-fiche">Ajout de fonctionnalité à un module d'ERP existant (Alternance)</h3>
+
+          <h4>Description</h4>
+          <p>L'objectif était d'ajouter la possibilité de gérer des fiches travaux dans un module de gestion de
+            clientèle d'un ERP. Parmi les fonctionnalités attendues se trouvent la création, la modification et la
+            suppression de fiches travaux.</dd>
+          </p>
+
+          <h4>Auteurs</h4>
+          <p>Réalisation individuelle</p>
+
+          <h4>Contexte</h4>
+          <p>PHASEO contient plusieurs modules : Clientèle, Facturation, Tournée et d'autres.
+            Les clients de l'utilisateur peuvent avoir besoin d'intervenir dans des propriétés pour réaliser des travaux
+            liés à la distribution et
+            l'assainissement de l'eau.
+          </p>
+
+          <h4>Outils et langages utilisés</h4>
           <ul>
-            <li><img src="img/girl_pc.png" id="image_girl_pc"><a href="accueil.html"><text id="Accueil">Accueil</text></a></li>
-            <li><a href="qui-suis-je.html">Qui-suis-je ?</a></li>
-            <li><a class="actif" href="mes projets.html">Mes projets</a></li>
-            <li><a href="formulaire.html">Me contacter</a></li>
+            <li>Windev</li>
+            <li>WLangage</li>
+            <li>SQL</li>
+            <li>Oracle</li> <br>
           </ul>
-        </nav>
-      </header>
 
-      <main>
+          <h4>Attendus</h4>
+          <ul>
+            <li>Réaliser des interfaces utilisateurs</li>
+            <ul>
+              <li>Utiliser les widgets compris de Windev</li>
+              <li>S'inspirer d'une autre fenêtre existante</li>
+            </ul>
+            <li>Enregister et charger en base de données les fiches travaux</li>
+            <li>Supprimer une fiche travaux</li>
+          </ul>
 
-        <!-- 
-          Menu latéral montrant une photo de profil
-          ainsi que des informations personnelles
-        -->
+          <h4>Compétences</h4>
+          <ul>
+            <li> <strong>Compétences techniques</strong></li>
+            <ul>
+              <li>Reprendre le travail d'anciens développeurs</li>
+              <li>Ajouter des fonctionnalités à une application existante</li>
+              <li>Apprendre un nouveau langage rapidement</li>
+            </ul>
 
-        <!-- Le contenu principal apparait ici -->
-        
-          <!-- Titre de la page -->
-          
-          <h1>Mes projets et réalisations</h1>
-          
-          <article>
-            <h2 class="h2_sous-titre">Expériences professionnelles</h2>
+            <li> <strong>Compétences transversales</strong> </li>
+            <ul>
+              <li>Faire preuve d'autonomie</li>
+              <li>Prendre des initiatives</li>
+            </ul>
+          </ul>
+        </section>
+      </article>
 
+      <article class="article-fiche">
+        <img src="img/bg-sae.jpg" alt="bg-sae" id="bg-lomet">
 
-              <div class="article_page">
+        <section id="section-stage">
+          <h3 class="h3-fiche">Configurations Low-code de l'outil LOMET (Stage)</h3>
 
-                <div class="div_comp">
-                  <h3 class="projets" id="h3_babysitting">Baby-sitting</h3>
-                  <p>Je me suis occupé de la fille d'une amie de ma mère pendant plusieurs mois au cours de l'année 2019 lorsque j'avais 15 ans. Cette expérience m'a apris à être attentive et à l'écoute de la personne que je m'occupais. J'ai appris de même la polyvalence. J'ai en effet dû effectuer plusieurs tâches en un temps réstreint telles que la préparation de repas, la douche de l'enfant ou encore faire des activités avec elle.</p>
-                </div>
+          <h4>Description</h4>
+          <p>L'objectif était de rendre l'outil LOMET configurable. Cela consistait à ajouter
+            des configurations d'interface. L'utilisateur doit pouvoir personnaliser ses interfaces
+            d'une manière qui lui est agréable.</dd>
+          </p>
 
-                <div class="div_comp">
-                  <h3 class="projets" id="h3_agentrestau">Agent de restauration</h3>
-                  <p>Mon travail consistait à la préparation et au service des repas dans un EHPAD. Ce travail m'a appris à être efficace et fléxible puisqu'il a fallu préparer le service puis servir en un temps très court les personnes agées mais nous devions être très méticuleux puisqu'il fallait faire attention servir les bons plats aux bonnes personnes et suivre le régime alimentaire de tous. Nous étions un petit effectif à servir une grande salle puis nous devions nous occuper de la vaisselle et du ménage de la salle après le service.</p>
-                </div>
+          <h4>Auteurs</h4>
+          <p>Réalisation individuelle</p>
 
-              </div>
+          <h4>Contexte</h4>
+          <p>LOMET est un outil de création et d'exécution de tout type de méthodes développé pour l'ingénierie des
+            méthodes.</p>
 
-              <article class="article_sae">
-                <img src="img/bg_sae.JPG" alt="bg_sae" id="bg_lomet">
-              
-                <section id="section_stage">
-                  <h2 id="h2_lomet">configurations Low-code de l'outil LOMET (Stage)</h2>
+          <h4>Outils et langages utilisés</h4>
+          <ul>
+            <li>JointJS</li>
+            <li>JavaScript</li>
+            <li>HTML / CSS</li>
+            <li>VS Code</li>
+            <li>Gitlab-GRICAD</li>
+          </ul>
 
-                  <h4>Description</h4>
-                  <p>L'objectif était de rendre l'outil LOMET configurable. Cela consistait en ajouter
-                    des configurations d'interface. L'utilisateur doit pouvoir personnaliser ses interfaces
-                  d'une manière qui lui est agréable.</dd>
-                  </p>
-  
-                  <h4>Auteurs</h4>
-                  <p>Réalisation individuelle</p>
-                  
-                  <h4>Contexte</h4>
-                  <p>LOMET est un outil de création et d'exécution de tout type de méthodes développée pour l'ingénierie des méthodes.</p>
-                  
-                  <h4>Outil et langage utilisé</h4>
-                  <ul>
-                    <li>JointJS</li>
-                    <li>JavaScript</li>
-                    <li>HTML5</li>
-                    <li>CSS3</li> <br>
-                    <li>VS Code</li>
-                    <li>Gitlab-GRICAD</li>
-                  </ul>
-                    
-                  <h4>Attendus</h4>
-                  <ul>
-                    <li>Réaliser un mode édition</li>
-                    <ul>
-                      <li>Réaliser son visuel</li>
-                      <li>Configurer l'ouverture d'une méthode</li>
-                      <li>Configurer le positionnement d'élément graphiques sur trois interfaces</li>
-                    </ul>
-                    <li>Enregister et charger en base de données les configurations effectuées par l'utilisateur</li>
-                  </ul>
-                    
-                  <h4>Contribution personnelle</h4>
-                  <p>Ces personnalisations permettent aux interfaces de s'adapter aux habitudes de travail de l'utilisateur
-                    sans que ce dernier n'ai à coder ses interfaces puisqu'une approche Low-code est appliquée.
-                  </p>
-                    
-                  <h4>Compétences</h4>
-                    <ul> 
-                      <li> <strong>Compétences techniques</strong></li>
-                      <ul>
-                        <li>Reprendre le travail d'anciens développeurs</li>
-                        <li>Ajouter des fonctionnalités à une application existante</li>
-                        <li>Apprendre un nouveau langage rapidement</li>
-                      </ul>
-                      
-                      <li> <strong>Compétences transversales</strong> </li>
-                        <ul>
-                          <li>Faire preuve d'autonomie</li>
-                          <li>Prendre des initiatives</li>
-                          <li>Faire preuve de créativité</li>
-                          <li>Gérer son temps et le stress</li>
+          <h4>Attendus</h4>
+          <ul>
+            <li>Réaliser un mode édition</li>
+            <ul>
+              <li>Réaliser son visuel</li>
+              <li>Configurer l'ouverture d'une méthode</li>
+              <li>Configurer le positionnement d'élément graphiques sur trois interfaces</li>
+            </ul>
+            <li>Enregister et charger en base de données les configurations effectuées par l'utilisateur</li>
+          </ul>
 
-                        </ul>
-                    </ul>
-                </section>
-              </article>
+          <h4>Compétences</h4>
+          <ul>
+            <li> <strong>Compétences techniques</strong></li>
+            <ul>
+              <li>Reprendre le travail d'anciens développeurs</li>
+              <li>Ajouter des fonctionnalités à une application existante</li>
+              <li>Apprendre un nouveau langage rapidement</li>
+            </ul>
 
-              </article>
+            <li> <strong>Compétences transversales</strong> </li>
+            <ul>
+              <li>Faire preuve d'autonomie</li>
+              <li>Prendre des initiatives</li>
+              <li>Faire preuve de créativité</li>
+              <li>Gérer son temps et le stress</li>
 
-            <h2 class="h2_sous-titre">Projets universitaires</h2>
+            </ul>
+          </ul>
+        </section>
+      </article>
+    </section>
 
-            <article id="article_boutons_sae">
-             
-              <a href="#h2_sae3"> <img src="img/sae3.png" alt="sae3" class="img_sae"></a>
-              <a href="#h2_sae4"> <img src="img/sae4.png" alt="sae4" class="img_sae"></a>
-              <a href="#h2_sae2"> <img src="img/sae2.png" alt="sae2" class="img_sae"></a>
-              <a href="#h2_gamejam"> <img src="img/gamejam.png" alt="gamejam" class="img_sae"></a>
-            </article>
+    <h2 class="h2-sous-titre">Projets universitaires</h2>
 
+    <article id="article-boutons-sae">
 
-            <article class="article_sae">
-            
+      <a href="#h3-sae3"> <img src="img/sae3.png" alt="sae3" class="img-sae"></a>
+      <a href="#h3-sae4"> <img src="img/sae4.png" alt="sae4" class="img-sae"></a>
+      <a href="#h3-sae2"> <img src="img/sae2.png" alt="sae2" class="img-sae"></a>
+      <a href="#h3-gamejam"> <img src="img/gamejam.png" alt="gamejam" class="img-sae"></a>
+    </article>
 
-              <img src="img/bg_sae.JPG" alt="bg_sae" id="bg_sae3">
-              <section id="section_sae3">
-                <h2 id="h2_sae3">Organizing History - Réaliser un site web dynamique de type serious game</h2>
-                <h4>Description</h4>
-                <p>
-                  L'objectif consistait, en équipe de plusieurs étudiants, de concevoir et réaliser un site web contenant un jeu ludo-éducatif à destination
-                  de collégiens ou lycéens.
-                </p>
+    <section class="section-fiches">
 
-                <h4>Auteurs</h4>
-                <p>Réalisation en équipe de 8 étudiants</p>
-                
-                <h4>Thématique/ contexte</h4>
-                <p>Réaliser toutes les étapes de création d'un site web dynamique.</p>
-                
-                <h4>Outil et langage utilisés</h4>
+      <article class="article-fiche">
+
+        <img src="img/bg-sae.jpg" alt="bg-sae" id="bg-sae3">
+
+        <section id="section-sae3">
+          <h3 class="h3-fiche" id="h3-sae3">Organizing History - Réaliser un site web dynamique de type serious game
+          </h3>
+          <h4>Description</h4>
+          <p>
+            L'objectif consistait, en équipe de plusieurs étudiants, à concevoir et réaliser un site web contenant un
+            jeuludo-éducatif à destination
+            de collégiens ou lycéens.
+          </p>
+
+          <h4>Auteurs</h4>
+          <p>Réalisation en équipe de 8 étudiants</p>
+
+          <h4>Thématique/ contexte</h4>
+          <p>Réaliser toutes les étapes de création d'un site web dynamique.</p>
+
+          <h4>Outils et langages utilisés</h4>
+          <ul>
+            <li>Symfony</li>
+            <li>JavaScript</li>
+            <li>CSS3</li>
+            <li>PostgreSQL</li> <br>
+            <li>Notion</li>
+            <li>Discord</li>
+          </ul>
+
+          <h4>Attendus</h4>
+          <ul>
+            <li>Concevoir et réaliser les interfaces du site</li>
+            <li>Héberger le site</li>
+            <li>Rendre le site dynamique à l'aide de données persistantes</li>
+          </ul>
+
+          <h4>Compétences</h4>
+          <ul>
+            <li> <strong> Compétences techniques</strong></li>
+            <ul>
+              <li>Concevoir des interfaces</li>
+              <li>Administrer une base de données</li>
+              <li>Placer le site sur un serveur distant</li>
+
+            </ul>
+
+            <li> <strong> Compétences transversales</strong></li>
+            <ul>
+              <li>Organiser son travail</li>
+              <li>Travailler en équipe</li>
+              <li>Réaliser une gestion de projet</li>
+            </ul>
+          </ul>
+        </section>
+      </article>
+
+      <article class="article-fiche">
+        <img src="img/bg-sae.jpg" alt="bg-sae" id="bg-sae4">
+        <section id="section-sae4">
+          <h3 class="h3-fiche" id="h3-sae4">Améliorer et optimiser une application existante : mon carnet de bord de
+            suivi de stage</h3>
+
+          <h4>Description</h4>
+          <p>
+            À partir d’un besoin d’un client, il fallait analyser les points de mauvaise qualité de l'application
+            disponible
+            en version web et en version mobile</dd>
+          </p>
+
+          <h4>Auteurs</h4>
+          <p>Réalisation en équipe de 4 étudiants</p>
+
+          <h4>Contexte de l'étude</h4>
+          <p>Recherche de stage pour le premier utilisateur : l'étudiant et gestion des offres par l'administrateur</p>
+
+          <h4>Outils et langages utilisés</h4>
+          <ul>
+            <li>Symfony</li>
+            <li>Android (Java)</li>
+            <li>Docker (conteneurs)</li>
+            <li>PostgeSQL</li>
+          </ul>
+
+          <h4>Attendus</h4>
+          <ul>
+            <li>Analyser les points à améliorer de l'application</li>
+            <li>Améliorer une application existante</li>
+          </ul>
+
+          <h4>Organisation du travail de groupe</h4>
+          <p>Deux étudiants étaient sur la partie web et les deux autres étudiants étaient sur la partie mobile</p>
+
+          <h4>Contribution personnelle</h4>
+          <p>J'ai mis le projet dans un conteneur Docker puis ai généralisé cette mise en conteneur à l'aide d'un
+            Dockerfile</p>
+          <p>J'ai également créé des vues de l'application mobile et leur gestion d'événements</p>
+          <h3>Compétences</h4>
+            <ul>
+              <li><strong> Compétences techniques</strong></li>
+              <ul>
+                <li>Analyser les points à améliorer de l'application</li>
+                <li>Améliorer une application existante</li>
+              </ul>
+
+              <li> <strong> Compétences transversales</strong></li>
+              <ul>
+                <li>Travailler en équipe</li>
+                <li>Organiser son travail</li>
+                <li>Gérer son temps</li>
+              </ul>
+
+            </ul>
+        </section>
+      </article>
+
+      <article class="article-fiche">
+        <img src="img/bg-sae.jpg" alt="bg-sae2" id="bg-sae2">
+        <section id="section-sae2">
+          <h2 class="h3-fiche" id="h3-sae2">Anim'Aventure <br> Concevoir et développer une application d'hébergement
+            d'événements</h3>
+
+            <h4>Description</h4>
+            <p>
+              À partir d'un besoin exprimé par des clients, l'objectif était de réaliser une application de gestion de
+              conventions
+              animalières pour un gestionnaire de conventions. Dans l'application, ce dernier doit pouvoir gérer les
+              intervenants, l'activité et son calendrier.
+            </p>
+
+            <h4>Auteurs</h4>
+            <p>Réalisation en équipe de 5 étudiants</p>
+
+            <h4>Contexte de l'étude</h4>
+            <p>Le public visé est un gestionnaire de convientions animalières qui cherche un logiciel de gestion de ce
+              type
+              spécifique d'événements.</p>
+
+            <h4>Outils et langages utilisés</h4>
+            <ul>
+              <li>Java</li>
+              <li>JavaFX</li>
+              <li>PostgreSQL</li>
+              <li>IntelliJ Idea</li>
+              <li>Whimsical</li>
+            </ul>
+
+            <h4>Attendus</h4>
+            <ul>
+              <li>Concevoir les interfaces du logiciel</li>
+              <li>Réaliser un rapport</li>
+              <li>Réaliser une présentation en équipe du logiciel</li>
+            </ul>
+
+            <h4>Organisation du travail de groupe</h4>
+            <p>Mon équipe et moi avions réparti les tâches en 5, que ce soit pour la conception et le développement du
+              logicel. Nous communiquions régulièrement pour partager les avancées de chacun. Cela nous a permis de
+              gagner
+              du temps.</p>
+
+            <h4>Contribution personnelle</h4>
+            <p>J’ai réalisé le wireframe et le développement des pages</p>
+
+            <h3>Compétences</h4>
+              <ul>
+                <li><strong> Compétences techniques</strong></li>
                 <ul>
-                  <li>Symfony</li>
-                  <li>JavaScript</li>
-                  <li>CSS3</li>
-                  <li>PostgreSQL</li> <br>
-                  <li>Notion</li>
-                  <li>Discord</li>
-                </ul>
-                  
-                <h4>Attendus</h4>
-                <ul>
-                  <li>Concevoir et réaliser les interfaces du site</li>
-                  <li>Héberger le site</li>
-                  <li>Rendre le site dynamique à l'aide de données persistantes</li>
-                </ul>
-                  
-                <h4>Compétences</h4>
-                  <ul> 
-                    <li> <strong> Compétences techniques</strong></li>
-                    <ul>
-                      <li>Concevoir des interfaces</li>
-                      <li>Administrer une base de données</li>
-                      <li>Placer le site sur un serveur distant</li>
-                      
-                    </ul>
-                    
-                    <li> <strong> Compétences transversales</strong></li>
-                      <ul>
-                        <li>Organiser son travail</li>
-                        <li>Travailler en équipe</li>
-                        <li>Réaliser une gestion de projet</li>
-                      </ul>
-                  </ul>
-              </section>
-
-
-
-              <img src="img/bg_sae.JPG" alt="bg_sae" id="bg_sae4">
-              <section id="section_sae4">
-                <h2 id="h2_sae4">Améliorer et optimiser une application existante : mon carnet de bord de suivi de stage</h2>
-
-                <h4>Description</h4>
-                <p>
-                  A partir d’un besoin d’un client, il fallait analyser les points de mauvaise qualité de l'application disponible
-                en version web et version mobile</dd>
-                </p>
-
-                <h4>Auteurs</h4>
-                <p>Réalisation en équipe de 4 étudiants</p>
-
-                <h4>Contexte de l'étude</h4>
-                <p>Recherche de stage pour le premier utilisateur : l'étudiant et gestion des offres par l'administrateur</p>
-
-                <h4>Outils et langages utilisés</h4>
-                <ul>
-                  <li>Symfony</li>
-                  <li>Android (Java)</li>
-                  <li>Docker (conteneurs)</li>
-                  <li>PostgeSQL</li>
-                </ul>
-
-                <h4>Attendus</h4>
-                <ul>
-                  <li>Analyser les points à améliorer de l'application</li>
-                  <li>Améliorer une application existante</li>
-                  </ul>
-
-                <h4>Organisation du travail de groupe</h4>
-                <p>Deux étudiants étaient sur la partie web et les deux autres étudiants étaient sur la partie mobile</p>
-                    
-                <h4>Contributin personnelle</h4>
-                <p>J'ai mis le projet dans un conteneur Docker puis ai généralisé cette mise en conteneur à l'aide d'un Dockerfile</p>
-                <p>J'ai également créé des vues de l'application mobile et leur gestion d'événements</p>
-                <h3>Compétences</h4>
-                  <ul> 
-                    <li><strong> Compétences techniques</strong></li>
-                    <ul>
-                      <li>Analyser les points à améliorer de l'application</li>
-                      <li>Améliorer une application existante</li>
-                    </ul>
-
-                    <li> <strong> Compétences transversales</strong></li>      
-                      <ul>
-                        <li>Travailler en équipe</li>
-                        <li>Organiser son travail</li>
-                        <li>Gérer son temps</li>
-                      </ul>           
-                  
-                  </ul>
-              </section>
-
-
-
-
-
-
-              <img src="img/bg_sae.JPG" alt="bg_sae2"id="bg_sae2" >
-              <section id="section_sae2">
-                <h2 id="h2_sae2">Anim'Aventure <br> Concevoir et développer une application d'hébergement d'événements</h2>
-
-                <h4>Description</h4>
-                <p>
-                  A partir d'un besoin exprimés par des clients, l'objectif était de réalier une application de gestion de conventions 
-                  animalières pour un gestionnaire de conventions. Dans l'application, ce dernier doit pouvoir gérer les intervenants, activité, son calendrier ...
-                </p>
-
-                <h4>Auteurs</h4>
-                <p>Réalisation en équipe de 5 étudiants</p>
-
-                <h4>Contexte de l'étude</h4>
-                <p>Le public visé est un gestionnaire de convientions animalières qui cherche un logiciel de gestion de ce type spécifique d'événements.</p>
-
-                <h4>Outils et langages utilisés</h4>
-                <ul>
-                  <li>Java</li>
-                  <li>JavaFX</li>
-                  <li>PostgreSQL</li>
-                  <li>IntelliJ Idea</li>
-                  <li>Whimsical</li>
-                </ul>
-
-                <h4>Attendus</h4>
-                <ul>
-                  <li>Concevoir les interfaces du logiciel</li>
-                  <li>Réaliser un rapport</li>
-                  <li>Réaliser une présentation en équipe du logiciel</li>
-                </ul>
-
-                <h4>Organisation du travail de groupe</h4>
-                <p>Mon équipe et moi avions réparti les tâches en 5 que cela soit pour la conception et le développement du logicel. Nous communiquions régulièrement pour partager les avancées de chacun. Cela nous a permis de gagner du temps.</p>
-                    
-                <h4>Contributin personnelle</h4>
-                <p>J’ai réalisé le wireframe et le développement des pages</p>
-              
-                <h3>Compétences</h4>
-                  <ul> 
-                    <li><strong> Compétences techniques</strong></li>
-                    <ul>
-                      <li>Concevoir le wireframe du site web</li>
-                      <li>Réaliser une gestion de prohjet</li>
-                    </ul>
-
-                    <li> <strong> Compétences transversales</strong></li>      
-                      <ul>
-                        <li>Organiser et piloter un projet informatique avec des méthodes classiques ou agiles</li>
-                        <li>Gérer son temps</li>
-                        <li>Organiser son travail</li>
-                        
-                      </ul>           
-                  
-                  </ul>
-              </section>
-              
-              <img src="img/bg_sae.JPG" alt="bg_gamejam" id="bg_gamejam">
-              <section id="section_gamejam">
-                <h2 id="h2_gamejam"> Junior Tech Cat <br> Réaliser un jeu en un temps restreint</h2>
-
-                <h4>Description</h4>
-                <p>
-                  L'objectif était en équipe de 4 étudiants, de réaliser un jeu vidéo avec des conditions restreintes
-                </p>
-
-                <h4>Auteurs</h4>
-                <p>Réalisation en équipe de 4 étudiants</p>
-
-                <h4>Contexte de la réalisation</h4>
-                <p>Nous devions réaliser un jeu en 4 jours et 4 nuits seulement avec la librairie PyGame de Python </p>
-
-                <h4>Outils et langages utilisés</h4>
-                <ul>
-                  <li>Python (PyGame)</li>
-                  <li>VS Code</li>
-                  <li>Discord</li>
+                  <li>Concevoir le wireframe du site web</li>
+                  <li>Réaliser une gestion de prohjet</li>
                 </ul>
 
-                <h4>Attendus</h4>
+                <li> <strong> Compétences transversales</strong></li>
                 <ul>
-                  <li>Concevoir les interfaces du jeu</li>
-                  <li>Réaliser un jeu dans un temps limité</li>
+                  <li>Organiser et piloter un projet informatique avec des méthodes classiques ou agiles</li>
+                  <li>Gérer son temps</li>
+                  <li>Organiser son travail</li>
+
                 </ul>
 
-                <h4>Organisation du travail de groupe</h4>
-                <p>Mes équipers et moi avons réalisé une rapide conception puis avons réparti les tâches en fonction des compétences de chacun</p>
-                    
-                <h4>Contributin personnelle</h4>
-                <p>J’ai réalisé les designs et ai inclu des sons</p>
-              
-                <h3>Compétences</h4>
-                  <ul> 
-                    <li><strong> Compétences techniques</strong></li>
-                    <ul>
-                      <li>Apprendre un nouveau langage rapidement</li>
-                      <li>Concevoir les interfaces du jeu</li>
-                      <li>Réaliser un jeu dans un temps limité</li>
-                    </ul>
+              </ul>
+        </section>
+      </article>
 
-                    <li> <strong> Compétences transversales</strong></li>      
-                      <ul>
-                        <li>Organiser et piloter un projet informatique</li>
-                        <li>Gérer son temps</li>
-                        <li>Organiser son travail</li>
-                        
-                      </ul>           
-                  
-                  </ul>
-              </section>
-              
-            </article>
-            
-          
-          </article>
-      </main>
+      <article class="article-fiche">
+        <img src="img/bg-sae.jpg" alt="bg-gamejam" id="bg-gamejam">
+        <section id="section-gamejam">
+          <h3 class="h3-fiche" id="h3-gamejam"> Junior Tech Cat <br> Réaliser un jeu en un temps restreint</h3>
 
-      <!-- Barre des réseaux sociaux -->
-      <footer>
-      
-      </footer>
-    </body>
-  </html>
+          <h4>Description</h4>
+          <p>
+            L'objectif était, en équipe de 4 étudiants, de réaliser un jeu vidéo avec des conditions restreintes
+          </p>
 
+          <h4>Auteurs</h4>
+          <p>Réalisation en équipe de 4 étudiants</p>
 
+          <h4>Contexte de la réalisation</h4>
+          <p>Nous devions réaliser un jeu en 4 jours et 4 nuits seulement avec la librairie PyGame de Python </p>
+
+          <h4>Outils et langages utilisés</h4>
+          <ul>
+            <li>Python (PyGame)</li>
+            <li>VS Code</li>
+            <li>Discord</li>
+          </ul>
+
+          <h4>Attendus</h4>
+          <ul>
+            <li>Concevoir les interfaces du jeu</li>
+            <li>Réaliser un jeu dans un temps limité</li>
+          </ul>
+
+          <h4>Organisation du travail de groupe</h4>
+          <p>Mes équipers et moi avons réalisé une rapide conception puis avons réparti les tâches en fonction des
+            compétences de chacun</p>
+
+          <h4>Contribution personnelle</h4>
+          <p>J’ai réalisé les designs et ai inclu des sons</p>
+
+          <h3>Compétences</h4>
+            <ul>
+              <li><strong> Compétences techniques</strong></li>
+              <ul>
+                <li>Apprendre un nouveau langage rapidement</li>
+                <li>Concevoir les interfaces du jeu</li>
+                <li>Réaliser un jeu dans un temps limité</li>
+              </ul>
+
+              <li> <strong> Compétences transversales</strong></li>
+              <ul>
+                <li>Organiser et piloter un projet informatique</li>
+                <li>Gérer son temps</li>
+                <li>Organiser son travail</li>
+
+              </ul>
+
+            </ul>
+        </section>
+      </article>
+    </section>
+
+  </main>
+
+  <footer>
+
+  </footer>
+</body>
+
+</html>

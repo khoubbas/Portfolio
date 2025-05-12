@@ -1,269 +1,154 @@
 <!DOCTYPE html>
-  <html lang="fr">
-    <head>
-      <meta charset="UTF-8">
-      <title>Portfolio Soukaïna KHOUBBAZ</title>
-      <link rel="stylesheet" href="portfolio.css"> <!-- Feuille de style principale -->
-    </head>
-    <body>
-      <header>
-        <a href="#"><button id="bouton">&#11014</button></a>
-        <nav >
-          <ul>
-            <li><img src="img/girl_pc.png" id="image_girl_pc"> <a href="accueil.html"><text id="Accueil">Accueil</text></a></li>
-            <li><a class="actif" href="qui-suis-je.html">Qui-suis-je ?</a></li>
-            <li><a href="mes-projets.html">Mes projets</a></li>
-            <li><a href="formulaire.html">Me contacter</a></li>
-          </ul>
-        </nav>
+<html lang="fr">
 
-      </header>
+<head>
+  <meta charset="UTF-8">
+  <title>Portfolio Soukaïna KHOUBBAZ</title>
+  <link rel="stylesheet" href="portfolio.css"> <!-- Feuille de style principale -->
+</head>
 
+<body>
+  <header>
+    <a href="#"><button id="bouton">&#11014</button></a>
+    <nav>
+      <ul>
+        <li><img src="img/girl-pc.png" id="image-girl-pc" alt="girl-pc"> <a href="accueil.html"><text
+              id="Accueil">Accueil</text></a></li>
+        <li><a class="important-text" class="actif" href="qui-suis-je.html">Qui-suis-je ?</a></li>
+        <li><a href="mes-projets.html">Mes projets</a></li>
+      </ul>
+    </nav>
 
-      <main id="main_qui">
-
-        <h1>Qui suis-je ?</h1>
-        
-        <nav id="nav_deroulant">
-          <ul class="ul_deroulant">
-            <li class="li_deroulant"><a href="#h2_formation">Formation</a>
-              <ul class="sous">
-                <li><a href="#h2_formation">Formation actuelle</a></li>
-                <li><a href="#h2_formation">Baccalauréat</a></li>
-              </ul>
-            </li>
-            
-            <li class="li_deroulant"><a href="#h2_competences">Compétences</a>
-               <ul class="sous">
-                <li><a href="#h2_competences">Compétences techniques</a></li>
-                <li><a href="">Compétences transversales</a></li>
-              </ul>
-            </li>
-           
-            <li class="li_deroulant"><a href="#h2_centres_int">Centres d'intérêt</a>
-              <ul class="sous">
-                <li><a href="#h3_cine">Cinéma</a></li>
-                <li><a href="#h3_dess">Dessin</a></li>
-                <li><a href="#h3_ongl">Onglerie</a></li>
-                <li><a href="#h3_musi">Musique</a></li>
-              </ul>
-            </li>
-            
-            <li class="li_deroulant">
-              <a href="#h2_decouv_info">Découverte de l'informatique</a>
-              <ul class="sous">
-                <li><a href="#h3_deve">Développement Web</a></li>
-                <li><a href="#h3_algo">Algorithmie</a></li>
-              </ul>
-            </li>
-            
-          </ul>
-        </nav>
+  </header>
 
 
-        <h2 class="h2_sous-titre" id="h2_formation">Formation</h2>
+  <main id="main-qui">
 
-        <article class="article_page">
+    <section class="sections-qui">
+      <h2>&#10022 Formation </h2>
 
-          <div class="div_scol">
-            <h3>Formation actuelle<img src="img/pc_qui.png" alt="pc_ouvert" id="img_ordi"></h3>
-            <p>Je suis présentement en deuxième année de BUT Informatique à l'<a href="https://iut2.univ-grenoble-alpes.fr/">IUT2 Grenoble UGA </a>(38)</p>
-          </div>
-          
-          <div class="div_scol">
-            <h3>Baccalauréat<img src="img/diplome_qui.png" alt="diplome" id="img_diplome"></h3>
-            <p>J'ai obtenu mon Baccalauréat général mention bien avec les spécialités Mathématiques et Numérique et Sciences Informatiques en Juillet 2022 au <a href="https://argouges.ent.auvergnerhonealpes.fr/">Lycée André Argouges</a> Grenoble (38). </p>
-          </div>
-          
-        </article> 
-          
+      <ul class="liste-contenu">
+        <li>2022 - 2025</li>
+        <li class="important-text">BUT Informatique </li>
+        <li>Parcours réalisation d'applications : conception, <br>développement et validation </li>
+        <li>IUT2 - UGA Grenoble (38)</li>
+      </ul>
 
-
-        <h2 class="h2_sous-titre" id="h2_competences">Compétences</h2>
-
-        <article class="article_page">
-          <div class="div_comp">
-            <h3>Langages</h3>
-
-            <div>
-              
-              <h4>Web</h4>
-              <img src="img/logo-langages/php.png" alt="php" class="logo-langage-long">
-              <img src="img/logo-langages/symfony.png" alt="symfony" class="logo-langage">
-              <img src="img/logo-langages/html5.png" alt="html5" class="logo-langage">
-              <img src="img/logo-langages/css3.svg" alt="css3" class="logo-langage">
-              <img src="img/logo-langages/js.png" alt="js" class="logo-langage">
-              <img src="img/logo-langages/jquery.png" alt="jquery" class="logo-langage">
-              <img src="img/logo-langages/jointjs.png" alt="jointjs" class="logo-langage-long">
-              <img src="img/logo-langages/nodejs.png" alt="nodejs" class="logo-langage-long">
-
-            
-              <div class="langage-group">
-                <div>
-                  <h4>Logiciel</h4>
-                  <img src="img/logo-langages/python.png" alt="python" class="logo-langage">
-                  <img src="img/logo-langages/c.png" alt="c" class="logo-langage-petit">
-                  <img src="img/logo-langages/cpp.png" alt="cpp" class="logo-langage-petit">
-                  <img src="img/logo-langages/java.png" alt="java" class="logo-langage-detaille">
-                  <img src="img/logo-langages/javafx.png" alt="javafx" class="logo-langage-petit">
-                </div>
-
-                <div class="one-langage">
-                  <h4>Mobile</h4>
-                  <img src="img/logo-langages/android.png" alt="android" class="logo-langage">
-                </div>
-              </div>
-
-              <div class="langage-group">
-                <div>
-                  <h4>Base de données</h4>
-                  <img src="img/logo-langages/sql.png" alt="sql" class="logo-langage-petit">
-                  <img src="img/logo-langages/postgresql.png" alt="postgresql" class="logo-langage-detaille">
-                  <img src="img/logo-langages/sqlite.png" alt="sqlite" class="logo-langage-petit">
-                  <img src="img/logo-langages/mysql.png" alt="mysql" class="logo-langage-petit">
-                </div>
-
-                <div class="one-langage">
-                  <h4>conception</h4>
-                  <img src="img/logo-langages/uml.png" alt="uml" class="logo-langage-petit">
-                </div>
-              </div>
-
-              <div class="langage-group">
-                <div>
-                  <h4>Tests</h4>
-                  <img src="img/logo-langages/cypress.png" alt="cypress" class="logo-langage-long">
-                  <img src="img/logo-langages/mocha.png" alt="mocha" class="logo-langage-moyen">
-                  <img src="img/logo-langages/chai.png" alt="chai" class="logo-langage-moyen">
-                  <img src="img/logo-langages/istanbul.png" alt="istanbul" class="logo-langage">
-                </div>
-
-                <div class="one-langage">
-                  <h4>Gestion de projets</h4>
-                  <img src="img/logo-langages/BPMN.svg" alt="BPMN" class="logo-langage-moyen">
-                </div>
-              </div>
-              
-              <div class="langage-group">
-                <div>
-                  <h4>Qualité de code</h4>
-                  <img src="img/logo-langages/mvc.png" alt="mvc" class="logo-langage">
-                </div>
-
-                <div>
-                  <h4>Virtualisation</h4>
-                  <img src="img/logo-langages/docker.png" alt="docker" class="logo-langage-petit">
-                </div>
-              </div>
-
-            </div>
-          </div>
-              
-          <div class="div_comp">
-            <h3>Compétences techniques en informatique</h3>
-            <ul>
-              <li>&#9745; Développer des programmes informatiques dans les langages Python et Java</li>
-              <li>&#9745; Développer un site web à l'aide des langages HTML et CSS</li>
-              <li>&#9745; Comparer des approches algorithmiques</li>
-              <li>&#9745; Implémenter et manipuler une base de données dans le langage SQL</li>
-              <li>&#9745; Installer un poste pour le développement</li>
-              <li>&#9745; Réaliser un recueil de besoins</li>
-            </ul>
-
-          <h3>Compétences transversales</h3>
-          <dl class="dl_qui">
-            <dt>Travailler en équipe</dt>
-              <dd>Je suis capable d'auto-critique, d'accepter les commentaires de mes équipiers et d'émettre des critiques constructives sur le travail d'autrui afin de mener au mieux le travail d'équipe.</dd>
-            <dt>Organiser un travail</dt>
-              <dd>Je suis organisée, méthodique et rigoureuse. Lorsque j'ai un travail à réaliser, je suis en capacité d'identifier quelles sont les méthodes de travail dont j'ai besoin afin d'être efficace. Je sais aussi organiser mon temps dans le but de gagner en productivité.</dd>
-            <dt>Répondre à une demande immédiatement</dt>
-              <dd>Je suis réactive et dynamique. Je suis à l'écoute des personnes avec qui je collabore et je suis capable de me mettre au travail dès qu'il le faut.</dd>
-            <dt>Effectuer un travail en autonomie</dt>
-              <dd>Je suis autonome et efficace dans mon travail. En effet, je suis capable de réaliser des travaux individuels ainsi que rechercher des ressources informatiques, documentaires et humaines qui m'apporteront de l'aide si j'en ressens le besoin.</dd>            
-          </dl>
-          </div>
-        </article>
-        
+      <ul class="liste-contenu">
+        <li>2020 - 2022</li>
+        <li class="important-text">Baccalauréat général </li>
+        <li>Spécialités mathématiques et numérique et sciences informatiques</li>
+        <li>Mention bien</li>
+        <li>Lycée André Argouges Grenoble (38)</li>
+      </ul>
+    </section>
 
 
-        <h2 id="h2_centres_int" class="h2_sous-titre"> Mes centres d'intérêt</h2>
+    <section class="sections-qui">
+      <h2>&#10022 Compétences</h2>
+      <h3>Langages</h3>
 
-        <article class="article_page">
+      <div class="div-groupe-langages">
+        <img src="img/logo-langages/php.png" alt="php" class="logo-langage-long">
+        <img src="img/logo-langages/symfony.png" alt="symfony" class="logo-langage">
+        <img src="img/logo-langages/html5.png" alt="html5" class="logo-langage">
+        <img src="img/logo-langages/css3.svg" alt="css3" class="logo-langage">
+        <img src="img/logo-langages/js.png" alt="js" class="logo-langage">
+        <img src="img/logo-langages/nodejs.png" alt="nodejs" class="logo-langage-long">
+      </div>
+      <div class="div-groupe-langages">
+        <img src="img/logo-langages/python.png" alt="python" class="logo-langage">
+        <img src="img/logo-langages/c.png" alt="c" class="logo-langage-petit">
+        <img src="img/logo-langages/cpp.png" alt="cpp" class="logo-langage-petit">
+        <img src="img/logo-langages/java.png" alt="java" class="logo-langage-detaille">
+        <img src="img/logo-langages/android.png" alt="android" class="logo-langage">
+      </div>
+      <div class="div-groupe-langages">
+        <img src="img/logo-langages/sql.png" alt="sql" class="logo-langage-petit">
+        <img src="img/logo-langages/postgresql.png" alt="postgresql" class="logo-langage-detaille">
+        <img src="img/logo-langages/oracle.png" alt="oracle" class="logo-langage-enorme">
+        <img src="img/logo-langages/uml.png" alt="uml" class="logo-langage-petit">
+      </div>
+      <div class="div-groupe-langages">
+        <img src="img/logo-langages/cypress.png" alt="cypress" class="logo-langage-long">
+        <img src="img/logo-langages/mocha.png" alt="mocha" class="logo-langage-moyen">
+        <img src="img/logo-langages/BPMN.svg" alt="BPMN" class="logo-langage-moyen">
+        <img src="img/logo-langages/mvc.png" alt="mvc" class="logo-langage">
+        <img src="img/logo-langages/docker.png" alt="docker" class="logo-langage-petit">
 
-          <div class="div_scol">
+      </div>
 
-            <div>       
-              <h3 id="h3_cine">Le cinéma</h3>
-              <p> Je regarde des films et des séries depuis petite mais le cinéma est réellement devenu une passion lorsque j'avais 12/13 ans. J'aime me plonger dans la vie de personnages fictifs. C'est une évasion de plaisir pour moi. J'admire le travail de réalisation d'un film et émettre une critique sur ce-dernier.</dt>
-              <br> Mon genre favori est l'horreur. 
-              </p>
-            </div> 
+      </div>
+    </section>
 
-            <div>
-              <h3 id="h3_dess">Le dessin</h3></dt>
-              <p> Certains domaines de l'art me passionne, le dessin en fait partie. J'aime apprendre à dessiner, découvrir de nouvelles techniques dans le but de créer.</dd>
-              </p>
-            </div>
-          </div>
+    <section class="sections-qui">
+      <h3>Compétences techniques en informatique</h3>
+      <ul>
+        <li>&#9745 Développer des programmes informatiques</li>
+        <li>&#9745 Développer un site web</li>
+        <li>&#9745 Optimiser des logiciels informatiques</li>
+        <li>&#9745 Administrer des base de données relationnelle et non-relationnelles </li>
+        <li>&#9745 Installer un poste pour le développement</li>
+      </ul>
+    </section>
 
-          <div class="div_scol">
-            <h3 id="h3_ongl">L'onglerie</h3>
-              <p>
-              Cela fait 2 ans que le métier de prothésiste onglulaire et le monde autour me plaît. Les faux ongles, les vernis, le chablon, le gel et tous ces autres instruments sont pour moi une manière de prendre soin de soi et de se plaire.
-              </p>
+    <section class="sections-qui">
+      <h3>Compétences transversales</h3>
+      <ul>
+        <li>&#9745 Travailler en équipe</li>
+        <li>&#9745 Organiser un travail</li>
+        <li>&#9745 Répondre à une demande immédiatement</li>
+        <li>&#9745 Effectuer un travail en autonomie</li>
+      </ul>
+    </section>
 
-            <h3 id="h3_musi">La musique</h3></dt>
-              <p>J'apprécie tous les genres musicaux mais j'écoute en particulier le récent rap américain. Mes rappeurs favoris sont Travis Scott, Young Thug et 21 Savage. Je trouve que ce sont les rois dans leur domaine mais comme je l'ai dis précédemment, je trouve qu'il y a des génies dans tous les genres musicaux.</p>
-           
-          </div>
+    <section id="section-interet">
+      <h2>&#10022 Mes centres d'intérêt</h2>
+      <section id="section-img-interet">
+        <figure>
+          <img class="img-interet" src="img/interets/watching-movie.png" alt="movies">
+          <figcaption class="figcaption-texte">Films</figcaption>
+          <figcaption class="figcaption-source">source : https://storyset.com/</figcaption>
+        </figure>
 
-          </article>
+        <figure>
+          <img class="img-interet" src="img/interets/listening-music.png" alt="music">
+          <figcaption class="figcaption-texte">Musique</figcaption>
+          <figcaption class="figcaption-source">source : https://storyset.com/</figcaption>
+        </figure>
+
+        <figure>
+          <img class="img-interet" src="img/interets/making-nails.png" alt="nails">
+          <figcaption class="figcaption-texte">Prothésie onglaire</figcaption>
+          <figcaption class="figcaption-source">source : https://fr.freepik.com/</figcaption>
+        </figure>
+
+        <figure>
+          <img class="img-interet" src="img/interets/reading.png" alt="book">
+          <figcaption class="figcaption-texte">Livres</figcaption>
+          <figcaption class="figcaption-source">source : https://storyset.com/</figcaption>
+        </figure>
+
+        <figure>
+          <img class="img-interet" src="img/interets/drawing.png" alt="drawing">
+          <figcaption class="figcaption-texte">Dessin numérique</figcaption>
+          <figcaption class="figcaption-source">source : https://storyset.com/</figcaption>
+        </figure>
+
+        <figure>
+          <img class="img-interet" src="img/interets/science.png" alt="science">
+          <figcaption class="figcaption-texte">Science</figcaption>
+          <figcaption class="figcaption-source">source : https://storyset.com/</figcaption>
+        </figure>
+      </section>
+
+    </section>
 
 
+  </main>
 
-        <h2 id="h2_decouv_info" class="h2_sous-titre">Ma découverte de l'informatique</h2>
+  <footer>
 
-        <p>J'ai fait beaucoup de changement de voie ce qui m'a permis aujourd'hui de savoir quels sont mes objectifs de carrière dans l'informatique. <br> <br>
-          Plus j'en apprends de l'informatique aujourd'hui et plus j'arrive à avoir une vision globlale et tous les domaines liés à l'informatique. C'est notamment
-          lors de ma première année de BUT informatique que j'ai découvert toutes les branches de l'informatique. Je peux donc me donner mon propre avis de juger quels sont
-          les domaines dans lesquels je souhaiterais travailler plus tard, et ceux pour lesquels ce n'est pas le cas.
-        </p>
+</body>
 
-        <article class="article_page">
-          <div class="div_scol">
-            
-            <h3 id="h3_deve">Le développement Frontend</h3>
-            <p>Je me souviens n'avoir aimé que la partie développement web en cours de SNT (Sciences Numériques et Technologique) en seconde du lycée.   Et je me souviens n'aimer que cette partie de cette matière.
-              J'ai également appris les bases du dévelopement Web en HTML et CSS durant l'année de première avec la matière NSI (Numérique et Sciences Informatiques).
-              <br>
-              C'est également au 1<sup>er</sup> semestre que nous avons appris le dévelopement web et j'ai vraiment commencé à apprecier cela. Et j'ai compris pourquoi : le HTML et CSS lient
-              les deux choses qui me plaisent dans la vie : le développement et le design.
-            </p>
-
-          </div>
-
-
-          <div class="div_scol">
-
-            <h3 id="h3_algo">Le développement Backend</h3>
-            <p>Dès lors ma classe de teminale générale spécialités mathématiques et NSI (Numérique et Sciences Informatiques), je suis passionnée par le développement. Même si
-                à ce moment là, je n'apprenais que le langage Python et que l'algorithmique que je pratiquais était de niveau débutant.
-            </p> <br>
-            <p>Aujourd'hui, plus j'apprends de langages déstinés aux backend comme Java ou encore C++, plus j'apprécie le backend. J'ai aimé apprendre les bases de la programmation objets en Java tels quel l'héritage, le polymorphisme et l'encapsulation. J'aime également beaucoup apprendre les techniques spécifiques de chaque langage tel que la bonne gestion de la mémoire à l'aide de la forme canonique de Coplien en C++. <br>
-              J'aime beaucoup jongler entre l'apprentissage du front et du back. <br></p>
-
-
-          </div>
-
-          
-        </article>
-
-        
-
-      </main>
-
-      <footer>
-    
-    </body>
-  </html>
-
+</html>

@@ -2,10 +2,10 @@
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <svg version="1.2" width="143.02mm" height="143.02mm" viewBox="0 0 14302 14302" preserveAspectRatio="xMidYMid" fill-rule="evenodd" stroke-width="28.222" stroke-linejoin="round" xmlns="http://www.w3.org/2000/svg" xmlns:ooo="http://xml.openoffice.org/svg/export" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:presentation="http://sun.com/xmlns/staroffice/presentation" xmlns:smil="http://www.w3.org/2001/SMIL20/" xmlns:anim="urn:oasis:names:tc:opendocument:xmlns:animation:1.0" xml:space="preserve">
  <defs class="ClipPathGroup">
-  <clipPath id="presentation_clip_path" clipPathUnits="userSpaceOnUse">
+  <clipPath id="presentation-clip-path" clipPathUnits="userSpaceOnUse">
    <rect x="0" y="0" width="14302" height="14302"/>
   </clipPath>
-  <clipPath id="presentation_clip_path_shrink" clipPathUnits="userSpaceOnUse">
+  <clipPath id="presentation-clip-path-shrink" clipPathUnits="userSpaceOnUse">
    <rect x="14" y="14" width="14274" height="14274"/>
   </clipPath>
  </defs>
@@ -45,7 +45,7 @@
   </g>
  </defs>
  <g>
-  <g id="id2" class="Master_Slide">
+  <g id="id2" class="Master-Slide">
    <g id="bg-id2" class="Background"/>
    <g id="bo-id2" class="BackgroundObjects"/>
   </g>
@@ -53,46 +53,46 @@
  <g class="SlideGroup">
   <g>
    <g id="container-id1">
-    <g id="id1" class="Slide" clip-path="url(#presentation_clip_path)">
+    <g id="id1" class="Slide" clip-path="url(#presentation-clip-path)">
      <g class="Page">
       <g class="Graphic">
        <g id="id3">
         <rect class="BoundingBox" stroke="none" fill="none" x="1858" y="0" width="10477" height="14452"/>
         <defs>
-         <clipPath id="clip_path_1" clipPathUnits="userSpaceOnUse">
+         <clipPath id="clip-path-1" clipPathUnits="userSpaceOnUse">
           <path d="M 1858,0 L 12334,0 12334,14451 1858,14451 1858,0 Z"/>
          </clipPath>
         </defs>
-        <g clip-path="url(#clip_path_1)">
+        <g clip-path="url(#clip-path-1)">
          <path fill="rgb(32,98,175)" stroke="none" d="M 11256,13071 L 7157,14174 3058,13071 2112,2822 12202,2822 11256,13071 11256,13071 11256,13071 Z"/>
          <path fill="rgb(60,156,215)" stroke="none" d="M 7157,13294 L 7167,13297 10484,12403 11250,3652 7157,3652 7157,13294 7157,13294 Z"/>
          <path fill="rgb(0,0,0)" stroke="none" d="M 4831,1317 L 4831,706 5721,706 5721,39 4163,39 4163,1925 5721,1925 5721,1317 4831,1317 4831,1317 Z M 7321,706 L 7944,706 7944,39 6386,39 6386,706 C 6594,915 6704,1014 7005,1315 6829,1315 6386,1317 6386,1317 L 6386,1925 7944,1925 7944,1317 7321,706 7321,706 Z M 10152,706 L 10152,39 8593,39 8593,706 C 8803,915 8911,1014 9212,1315 9036,1315 8593,1317 8593,1317 L 8593,1925 10152,1925 10152,1317 9529,706 10152,706 10152,706 Z"/>
          <path fill="rgb(255,255,255)" stroke="none" d="M 7154,6215 L 4220,7437 4317,8647 7154,7433 10171,6143 10296,4906 7154,6215 7154,6215 7154,6215 Z"/>
         </g>
         <defs>
-         <clipPath id="clip_path_2" clipPathUnits="userSpaceOnUse">
+         <clipPath id="clip-path-2" clipPathUnits="userSpaceOnUse">
           <path d="M 4317,8647 L 7154,7433 7154,6215 4220,7437 4317,8647 4317,8647 Z"/>
          </clipPath>
         </defs>
-        <g clip-path="url(#clip_path_2)">
+        <g clip-path="url(#clip-path-2)">
          <image x="4219" y="6190" width="2936" height="2483" preserveAspectRatio="none" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGMAAABUCAYAAACWRImAAAACo0lEQVR4nO2cS27cMBBEWx/HM1JsA3Fg740cI4fLEXKlLHKAINn5DF4E8C8aW8w0JTVGJygCeg8Yjr1roFAku8hh++v3n9HMKgMZXbf/+eXu7mtbVdUhpdSqC9oyTdO8+ndb1/Xb+xF1QVtmv9vlmckd8W/+Bh3PPrgI7opRW8vmqX1wMV4NZ6gJZ6Tj501by+ZpfHAxXpZ/QMaTD4sz2E1paZfBnVFra9k8rkEWg52UHp+dYjdFHKLl4EM7/8HWVos33lkE39aygBeAizEYW1s1sYDjDD0RFBKH6AlnEIfoWQWFNH1aVs6g8dMSzng2nKFmOnY1nFECxCEF4b1e9BlMU1oim3JVcIaWvEwsQSHO0LIKCnGGlljAXRWcoSW2ttyb0rO6Ucg0pSWcwS10PeGMF0MMNTijIIhDCiLiEJyhJx97s5sqg3zSShxSBqtLbDhDS0xTiKFndZ6BGFpWQSFiaAln+HyFGFricImmT084I80f0BHO8HtTOEMLzigI1oyCoM8oiOjAuTelZwoKx3HktxlihiHnhNamlNwiLOBChsMwvZBQ13V3dIe6nk0zP/716M/inRnOkNI004+N3R4ftaWATbupvy7G0viBjojQLw0x1ETTx/m3nrhReGE4Q008i3cmLgROfizTGc5QE/emPhjZlJp4SnVvOEONa5DF2BnOUPPog4txbjhDjRsii9EbzlATjwzzJJ6e6DOuxIXAiTM8DmGa0hK3Qy7EhcCswbJmEBZqiQidwyU94Qx2VHrCGb24EDhxhnd/rBla4nDpXFwITMcYxCGFkA/4lgUctOTZiTikDHJ74WJUxjSlJuKQS3EhMGuwrBfcENHy4MMiRicsBMzufWg/X3/6Pqa0U1ezZfq+/+Hf7e3NzTdxLTDzH6PwnRpFjw+/AAAAAElFTkSuQmCC"/>
         </g>
-        <g clip-path="url(#clip_path_1)"/>
+        <g clip-path="url(#clip-path-1)"/>
         <defs>
-         <clipPath id="clip_path_3" clipPathUnits="userSpaceOnUse">
+         <clipPath id="clip-path-3" clipPathUnits="userSpaceOnUse">
           <path d="M 10296,4906 L 7154,6215 7154,7433 10171,6143 10296,4906 10296,4906 10296,4906 Z"/>
          </clipPath>
         </defs>
-        <g clip-path="url(#clip_path_3)">
+        <g clip-path="url(#clip-path-3)">
          <image x="7153" y="4881" width="3146" height="2578" preserveAspectRatio="none" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGkAAABWCAYAAADMrrhCAAAB1klEQVR4nO3du1LDMBCF4UR2HDmBmPfvqXgYhoGWd6AJiWU7Bqn3tns0839N2jOzs8qunEv78fm17iDrZRhe2//Xh3cQbGuaMOUijd5BsC3GuMtFmr2DwHTNRZq8U8B0oEj6bhx3+hoGB303RnB9pZNu3ilgutJJ+kon3b1TwDTTSfruTHf6AnuSvpEbB317iqTvznGnLzA46BsZwfXtWWb10UkVWOkkfVwLVWBhutO3sCfpS7lIyTsFbFwL6UscdxXguNNXOmnxTgEby6y+0kl8P0kcn7vTl7gW0se1UAUWpjt9C3uSvoVrIX0z10L6Vo47fRODg76VEVwfy2wNcpF+vUPANHLBWgEeVejjoV8FHuxJ+vjcXQW4u6sAt+Dq0ph2DA7ipnluc5HO3kGwre9jubtrvINgWwihFOniHQSmRCfp2/OeVIFcpM47BEzlF1F67xQwlUcV0TsFTC3Hnb4Dg4O+H0ZwfeW4e/ZOAVNPJ+kry+yTdwqYYi7SwTsFbCyz+nqWWX3lPenonQKm0kkn7xQwlT8Uab1TwNSxzOqLLLMVYJnVd2KZ1beyzOo7sydVgCLp63kyqy+wzOqLLLP6jiyz+iaWWX3v7TBc3rxTYFvXdd9/RgZtApmlk/4AAAAASUVORK5CYII="/>
         </g>
-        <g clip-path="url(#clip_path_1)"/>
+        <g clip-path="url(#clip-path-1)"/>
         <defs>
-         <clipPath id="clip_path_4" clipPathUnits="userSpaceOnUse">
+         <clipPath id="clip-path-4" clipPathUnits="userSpaceOnUse">
           <path d="M 4321,8647 L 8674,8661 8576,10274 7145,10677 5767,10329 5684,9327 4405,9327 4572,11261 7159,12026 9731,11275 10064,7437 4225,7437 4321,8647 4321,8647 Z"/>
          </clipPath>
         </defs>
-        <g clip-path="url(#clip_path_4)">
+        <g clip-path="url(#clip-path-4)">
          <path fill="rgb(232,231,229)" stroke="none" d="M 4194,12026 L 4394,12026 4394,7437 4194,7437 4194,12026 4194,12026 Z"/>
          <path fill="rgb(233,232,230)" stroke="none" d="M 4334,12026 L 4533,12026 4533,7437 4334,7437 4334,12026 4334,12026 Z"/>
          <path fill="rgb(233,232,230)" stroke="none" d="M 4473,12026 L 4672,12026 4672,7437 4473,7437 4473,12026 4473,12026 Z"/>
@@ -137,15 +137,15 @@
          <path fill="rgb(254,254,254)" stroke="none" d="M 9896,12026 L 10095,12026 10095,7437 9896,7437 9896,12026 9896,12026 Z"/>
          <path fill="rgb(255,255,255)" stroke="none" d="M 10035,12026 L 10095,12026 10095,7437 10035,7437 10035,12026 10035,12026 Z"/>
         </g>
-        <g clip-path="url(#clip_path_1)">
+        <g clip-path="url(#clip-path-1)">
          <path fill="rgb(0,0,0)" fill-opacity="0.051" stroke="none" d="M 7154,7437 L 4220,7437 4317,8647 7154,8655 7154,7437 7154,7437 7154,7437 Z M 7154,10673 L 7139,10677 5764,10329 5680,9327 4401,9327 4567,11261 7154,12026 7154,10673 7154,10673 7154,10673 Z"/>
         </g>
         <defs>
-         <clipPath id="clip_path_5" clipPathUnits="userSpaceOnUse">
+         <clipPath id="clip-path-5" clipPathUnits="userSpaceOnUse">
           <path d="M 10296,4906 L 10171,6143 4108,6143 3956,4906 10296,4906 10296,4906 Z"/>
          </clipPath>
         </defs>
-        <g clip-path="url(#clip_path_5)">
+        <g clip-path="url(#clip-path-5)">
          <path fill="rgb(232,231,229)" stroke="none" d="M 3925,6144 L 4137,6144 4137,4906 3925,4906 3925,6144 3925,6144 Z"/>
          <path fill="rgb(233,232,230)" stroke="none" d="M 4077,6144 L 4288,6144 4288,4906 4077,4906 4077,6144 4077,6144 Z"/>
          <path fill="rgb(233,232,230)" stroke="none" d="M 4228,6144 L 4438,6144 4438,4906 4228,4906 4228,6144 4228,6144 Z"/>
@@ -190,7 +190,7 @@
          <path fill="rgb(254,254,254)" stroke="none" d="M 10115,6144 L 10326,6144 10326,4906 10115,4906 10115,6144 10115,6144 Z"/>
          <path fill="rgb(255,255,255)" stroke="none" d="M 10266,6144 L 10326,6144 10326,4906 10266,4906 10266,6144 10266,6144 Z"/>
         </g>
-        <g clip-path="url(#clip_path_1)">
+        <g clip-path="url(#clip-path-1)">
          <path fill="rgb(0,0,0)" fill-opacity="0.051" stroke="none" d="M 3956,4906 L 4108,6143 7154,6143 7154,4906 3956,4906 3956,4906 Z"/>
         </g>
        </g>

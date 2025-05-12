@@ -2,15 +2,15 @@
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <svg version="1.2" width="209.81mm" height="162.19mm" viewBox="0 0 20981 16219" preserveAspectRatio="xMidYMid" fill-rule="evenodd" stroke-width="28.222" stroke-linejoin="round" xmlns="http://www.w3.org/2000/svg" xmlns:ooo="http://xml.openoffice.org/svg/export" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:presentation="http://sun.com/xmlns/staroffice/presentation" xmlns:smil="http://www.w3.org/2001/SMIL20/" xmlns:anim="urn:oasis:names:tc:opendocument:xmlns:animation:1.0" xml:space="preserve">
  <defs class="ClipPathGroup">
-  <clipPath id="presentation_clip_path" clipPathUnits="userSpaceOnUse">
+  <clipPath id="presentation-clip-path" clipPathUnits="userSpaceOnUse">
    <rect x="0" y="0" width="20981" height="16219"/>
   </clipPath>
-  <clipPath id="presentation_clip_path_shrink" clipPathUnits="userSpaceOnUse">
+  <clipPath id="presentation-clip-path-shrink" clipPathUnits="userSpaceOnUse">
    <rect x="20" y="16" width="20940" height="16187"/>
   </clipPath>
  </defs>
  <defs>
-  <font id="EmbeddedFont_1" horiz-adv-x="2048">
+  <font id="EmbeddedFont-1" horiz-adv-x="2048">
    <font-face font-family="&apos;Myriad-Roman&apos; embedded" units-per-em="2048" font-weight="normal" font-style="normal" ascent="2170" descent="609"/>
    <missing-glyph horiz-adv-x="2048" d="M 0,0 L 2047,0 2047,2047 0,2047 0,0 Z"/>
    <glyph unicode="T" horiz-adv-x="1112" d="M 662,0 L 477,0 477,1300 20,1300 20,1462 1116,1462 1116,1300 662,1300 662,0 Z"/>
@@ -53,7 +53,7 @@
   </g>
  </defs>
  <g>
-  <g id="id2" class="Master_Slide">
+  <g id="id2" class="Master-Slide">
    <g id="bg-id2" class="Background"/>
    <g id="bo-id2" class="BackgroundObjects"/>
   </g>
@@ -61,17 +61,17 @@
  <g class="SlideGroup">
   <g>
    <g id="container-id1">
-    <g id="id1" class="Slide" clip-path="url(#presentation_clip_path)">
+    <g id="id1" class="Slide" clip-path="url(#presentation-clip-path)">
      <g class="Page">
       <g class="Graphic">
        <g id="id3">
         <rect class="BoundingBox" stroke="none" fill="none" x="129" y="2669" width="20669" height="9842"/>
         <defs>
-         <clipPath id="clip_path_1" clipPathUnits="userSpaceOnUse">
+         <clipPath id="clip-path-1" clipPathUnits="userSpaceOnUse">
           <path d="M 129,2669 L 20797,2669 20797,12510 129,12510 129,2669 Z"/>
          </clipPath>
         </defs>
-        <g clip-path="url(#clip_path_1)">
+        <g clip-path="url(#clip-path-1)">
          <path fill="rgb(124,194,67)" stroke="none" d="M 4540,11507 L 5487,10888 C 3792,10869 1349,10596 1314,9557 1296,9011 1952,8409 1952,8409 1952,8063 1988,6715 1988,6715 585,7753 96,8883 111,9503 129,10250 413,11096 2025,11671 3300,12127 5414,12109 5414,12109 L 4540,11507 4540,11507 Z"/>
          <path fill="rgb(124,194,67)" stroke="none" d="M 15146,3344 L 13925,3981 C 13925,3981 11228,4255 10061,4656 9424,4656 5979,4656 5979,4656 7000,4073 11975,2761 13907,2761 14198,2906 15146,3344 15146,3344 L 15146,3344 Z"/>
          <path fill="rgb(41,74,155)" stroke="none" d="M 10298,10199 L 1899,10199 1899,4494 18696,4494 18696,10199 10298,10199 Z"/>
