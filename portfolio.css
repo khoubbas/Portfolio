@@ -347,7 +347,6 @@ section ul {
     list-style-type: circle;
 }
 
-
 .section-fiches{
     display: flex;
     flex-direction: row;
@@ -364,7 +363,6 @@ section ul {
 #section-sae4,
 #section-sae2,
 #section-gamejam {
-    width: 40%;
     position: absolute;
 }
 
@@ -373,25 +371,25 @@ section ul {
 }
 
 #section-sae3, #section-sae4{
-    top: 2500px;
+    top: 2550px;
 }
 
 #section-sae2, #section-gamejam{
-    top: 4500px;
+    top: 4600px;
 }
 
 #bg-jba, #bg-lomet{
-    height: 1900px;
-    width: 834px;
-}
-
-#bg-sae3, #bg-sae4 {
     height: 1950px;
     width: 834px;
 }
 
+#bg-sae3, #bg-sae4 {
+    height: 2000px;
+    width: 834px;
+}
+
 #bg-sae2, #bg-gamejam {
-    height: 2100px;
+    height: 2150px;
     width: 834px;
 }
 
